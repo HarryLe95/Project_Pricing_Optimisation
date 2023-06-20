@@ -152,8 +152,11 @@ $$E_V(A(V,P^*)) \geq E_V(A(V, \hat{P}))$$
 Consider the decision tree under policy $P^*$ and $\hat{P}$. 
 
 We have that:
+
 $$E_V(A(V,P^*)) = M_{P^*}(0, N, 1)=(1-p_1^*)M(1,N-1,1-p_1^*) + p_1^*M(0,N-1,1)$$
+
 and that 
+
 $$E_V(A(V,\hat{P})) = M_{\hat{P}}(0, N,1) = \max_{s\leq1} \{(1-s)M(1,N-1,1-s) + sM(0,N-1,1)\}$$
 
 Hence by definition,
