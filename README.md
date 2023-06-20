@@ -14,7 +14,7 @@ To ensure that the shared cost sums to 1, we set the asking price for the last h
 
 For a fixed number of households in the system $N$, let $P$ be a vector that consists of the asking prices for every state in the system: 
 
-$$ P = <p^{1}, p_{0}^{2}, p_{1}^{2}, p_{00}^{3}, p_{01}^{3}, p_{10}^3, p_{11}^3, \dots > $$
+$$ P = \<p^{1}, p_{0}^{2}, p_{1}^{2}, p_{00}^{3}, p_{01}^{3}, p_{10}^3, p_{11}^3, \dots \> $$
 
 $$ P \in \mathbb{P} = [0,1]^{2^{N+1}-1}$$
 
