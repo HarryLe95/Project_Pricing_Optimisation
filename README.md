@@ -123,7 +123,7 @@ $M_P(i,j,k)$ can be understood as the backward inductive product in the decision
 
 ![Serial Cost Sharing N=3](DecisionTree.jpg) 
 
-We can compute the value $M_p(1,2,2/3)$ recursively by considering the two scenarios when household 2 accepts or rejects the offered price of $\$1/3$: 
+We can compute the value $M_p(1,2,2/3)$ recursively by considering the two scenarios when household 2 accepts or rejects the offered price of $1/3$: 
 
 $$M_p(1,2,2/3) = P(V_2 > 1/3)M_p(2, 1, 1/3) + P(V_2 \leq 1/3)M_p(1, 1, 2/3)$$
 
