@@ -153,7 +153,7 @@ Consider the decision tree under policy $P^*$ and $\hat{P}$.
 
 We have that:
 
-$$E_V(A(V,P^{*})) = M_{P^{*}}(0, N, 1)=(1-p_1^*)M(1,N-1,1-p_1^*) + p_1^*M(0,N-1,1)$$
+$$E_V(A(V,P^\*)) = M_{P^{\*}}(0, N, 1)=(1-p_1^\*)M(1,N-1,1-p_1^\*) + p_1^\*M(0,N-1,1)$$
 
 and that 
 
