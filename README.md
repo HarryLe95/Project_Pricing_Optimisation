@@ -4,7 +4,7 @@ Reader can skip straight to dynamic programming section if familiar with the pro
 
 ## Problem Setting:
 
-There are $N$ households considering funding a shared swimming pool project that costs $\$1$. Each household has their own valuation of how much the pool is worth, with each valuation assumed to be a random variable drawn i.i.d from $U[0,1]$. To determine whether to build the pool, each household $i$ is surveyed sequentially and offered a price $p_i$, with which they can agree or disagree. After N rounds, all households is surveyed exactly once, and if the total prices agreed by the households is at least equal to the price of the pool, the pool will be built. Those that agree with their offered price can use the pool. The task is to find a pricing strategy, defined as a sequence of $p_i$ such that the expected number of households that can use the pool is maximised. 
+There are $N$ households considering funding a shared swimming pool project that costs 1 dollar. Each household has their own valuation of how much the pool is worth, with each valuation assumed to be a random variable drawn i.i.d from $U[0,1]$. To determine whether to build the pool, each household $i$ is surveyed sequentially and offered a price $p_i$, with which they can agree or disagree. After N rounds, all households is surveyed exactly once, and if the total prices agreed by the households is at least equal to the price of the pool, the pool will be built. Those that agree with their offered price can use the pool. The task is to find a pricing strategy, defined as a sequence of $p_i$ such that the expected number of households that can use the pool is maximised. 
 
 ## Notation: 
 
