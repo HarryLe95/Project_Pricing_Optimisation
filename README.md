@@ -13,8 +13,11 @@ We will use the notation $<.>$ a vector. The ordering of elements in the vector 
 To ensure that the shared cost sums to 1, we set the asking price for the last household to be the remaining cost after the agreed cost shares of all previous surveyed household. 
 
 For a fixed number of households in the system $N$, let $P$ be a vector that consists of the asking prices for every state in the system: 
+
 $$ P = <p^{1}, p_{0}^{2}, p_{1}^{2}, p_{00}^{3}, p_{01}^{3}, p_{10}^3, p_{11}^3, \dots > $$
+
 $$ P \in \mathbb{P} = [0,1]^{2^{N+1}-1}$$
+
 Each asking price is of the form $p_{x}^{y}$ where the prefix $y$ denotes the household that is being offered, and $x \in \{0,1\}^{n}$ is the state vector recording the response of all households that have been surveyed. For instance, $p_{00}^3$ is the price offered to the third household when the first and second households have rejected their correponding offer. 
 
 Let $V = <V_1, V_2, \dots, V_N>$ be a random vector each denoting the random variable associated with the valuation of the pool for household $i$. From the question, we have that: 
