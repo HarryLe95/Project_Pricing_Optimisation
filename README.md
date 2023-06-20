@@ -1,4 +1,5 @@
 ## Note:
+This is the solution to the first assignment of COMP SCI 7407 - Advanced Algorithms at Adelaide University.
 
 Reader can skip straight to dynamic programming section if familiar with the problem setting and notations used. 
 
